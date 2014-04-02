@@ -7,14 +7,21 @@
 //
 
 #import "AppDelegate.h"
+#import "RootViewController.h"
 
 @implementation AppDelegate
+
+@synthesize window;
+@synthesize rootViewController = _rootViewController;
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
     self.window.backgroundColor = [UIColor whiteColor];
+    self.rootViewController = [[RootViewController alloc] init];
+    // instead of addSubView: 
+    [self.window setRootViewController:self.rootViewController];
     [self.window makeKeyAndVisible];
     return YES;
 }

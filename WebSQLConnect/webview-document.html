@@ -1,0 +1,21 @@
+<html>
+<head>
+  <title>Webview document</title>
+  <script type="text/javascript" src="NativeBridge.js"></script>
+  <!-- <script type="text/javascript" src="webview-script.js"></script> -->
+  <!-- a HELP js class for calling alerts and showing help files -->
+</head>
+
+<body style="background-color:transparent; color:#ccc;">
+  <h4>UIWebView calls to native methods</h4>
+  <p><a href="directory.html">Company Directory Link</a></p>
+  <p><a href="javascript:NativeBridge.call('directoryListing', [0], 'NativeBridge.showAlert()');">Company Directory Call</a></p>
+  <p><a href="javascript:NativeBridge.call('nextViewController', [0], 'NativeBridge.showAlert()');">Next View Controller</a></p>
+ 
+  
+  <iframe width=1 height=1 id="mainIFrame" name="mainIFrame" style="display: none"></iframe>  
+</body>
+
+</html>
+
+    

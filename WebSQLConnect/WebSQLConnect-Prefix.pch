@@ -14,3 +14,9 @@
     #import <UIKit/UIKit.h>
     #import <Foundation/Foundation.h>
 #endif
+
+// this will set up the call to open the nextViewController view and put it on top of the current view
+#define NOTIFICATION_NEXT_VIEW_CONTROLLER @"openNextViewController"
+
+// this will start off the directory listing
+#define NOTIFICATION_DIRECTORY_LISTING @"directoryListing"

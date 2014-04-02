@@ -19,6 +19,24 @@
 		2C0E6CDB187F0D5000A0FA19 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C0E6CC3187F0D5000A0FA19 /* UIKit.framework */; };
 		2C0E6CE3187F0D5000A0FA19 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2C0E6CE1187F0D5000A0FA19 /* InfoPlist.strings */; };
 		2C0E6CE5187F0D5000A0FA19 /* WebSQLConnectTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C0E6CE4187F0D5000A0FA19 /* WebSQLConnectTests.m */; };
+		2C0E6CF2187F0DDE00A0FA19 /* webview-document.html in Resources */ = {isa = PBXBuildFile; fileRef = 2C0E6CEF187F0DDE00A0FA19 /* webview-document.html */; };
+		2C0E6CF6187F0DF000A0FA19 /* MyWebView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C0E6CF5187F0DF000A0FA19 /* MyWebView.m */; };
+		2C0E6CF9187F0E0D00A0FA19 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C0E6CF8187F0E0D00A0FA19 /* RootViewController.m */; };
+		2C74CDD6189327D3001E9F16 /* help.html in Resources */ = {isa = PBXBuildFile; fileRef = 2C74CDD5189327D3001E9F16 /* help.html */; };
+		2C74CDD918932803001E9F16 /* HelpWebView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C74CDD818932803001E9F16 /* HelpWebView.m */; };
+		2C7AD4E61885BB73003C4569 /* NativeBridge.js in Resources */ = {isa = PBXBuildFile; fileRef = 2C0E6CEE187F0DDE00A0FA19 /* NativeBridge.js */; };
+		2C7AD4E71885BB74003C4569 /* main.js in Resources */ = {isa = PBXBuildFile; fileRef = 2C7AD4E41885B0D4003C4569 /* main.js */; };
+		2C7AD4E81885BB74003C4569 /* webview-script.js in Resources */ = {isa = PBXBuildFile; fileRef = 2C0E6CF0187F0DDE00A0FA19 /* webview-script.js */; };
+		2C7AD4EC18860FF1003C4569 /* NextViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C7AD4EA18860FF1003C4569 /* NextViewController.m */; };
+		2C7AD4ED18860FF1003C4569 /* NextViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2C7AD4EB18860FF1003C4569 /* NextViewController.xib */; };
+		2C7AD4EF18873F84003C4569 /* universalApp.sqlite3 in Resources */ = {isa = PBXBuildFile; fileRef = 2C7AD4EE18873F84003C4569 /* universalApp.sqlite3 */; };
+		2C7AD4F2188742AF003C4569 /* PCCDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C7AD4F1188742AF003C4569 /* PCCDatabase.m */; };
+		2C7AD4F418874312003C4569 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C7AD4F318874312003C4569 /* libsqlite3.dylib */; };
+		2CAB65EF188D8615009A33CC /* directory.html in Resources */ = {isa = PBXBuildFile; fileRef = 2CAB65EE188D8615009A33CC /* directory.html */; };
+		2CAB65F2188D8632009A33CC /* directory.js in Resources */ = {isa = PBXBuildFile; fileRef = 2CAB65F0188D8620009A33CC /* directory.js */; };
+		2CAB65F5188D889F009A33CC /* Directory.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CAB65F4188D889F009A33CC /* Directory.m */; };
+		2CAB65F7188DD2CB009A33CC /* directory.json in Resources */ = {isa = PBXBuildFile; fileRef = 2CAB65F6188DD2CB009A33CC /* directory.json */; };
+		2CAB65FA18904923009A33CC /* jquery.js in Resources */ = {isa = PBXBuildFile; fileRef = 2CAB65F818904910009A33CC /* jquery.js */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +66,30 @@
 		2C0E6CE0187F0D5000A0FA19 /* WebSQLConnectTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "WebSQLConnectTests-Info.plist"; sourceTree = "<group>"; };
 		2C0E6CE2187F0D5000A0FA19 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		2C0E6CE4187F0D5000A0FA19 /* WebSQLConnectTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WebSQLConnectTests.m; sourceTree = "<group>"; };
+		2C0E6CEE187F0DDE00A0FA19 /* NativeBridge.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = NativeBridge.js; sourceTree = "<group>"; wrapsLines = 0; };
+		2C0E6CEF187F0DDE00A0FA19 /* webview-document.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "webview-document.html"; sourceTree = "<group>"; };
+		2C0E6CF0187F0DDE00A0FA19 /* webview-script.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = "webview-script.js"; sourceTree = "<group>"; };
+		2C0E6CF4187F0DF000A0FA19 /* MyWebView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyWebView.h; sourceTree = "<group>"; };
+		2C0E6CF5187F0DF000A0FA19 /* MyWebView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyWebView.m; sourceTree = "<group>"; };
+		2C0E6CF7187F0E0D00A0FA19 /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RootViewController.h; path = ../RootViewController.h; sourceTree = "<group>"; };
+		2C0E6CF8187F0E0D00A0FA19 /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RootViewController.m; path = ../RootViewController.m; sourceTree = "<group>"; };
+		2C74CDD5189327D3001E9F16 /* help.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = help.html; sourceTree = "<group>"; };
+		2C74CDD718932803001E9F16 /* HelpWebView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HelpWebView.h; sourceTree = "<group>"; };
+		2C74CDD818932803001E9F16 /* HelpWebView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HelpWebView.m; sourceTree = "<group>"; };
+		2C7AD4E41885B0D4003C4569 /* main.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = main.js; sourceTree = "<group>"; };
+		2C7AD4E918860FF1003C4569 /* NextViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NextViewController.h; sourceTree = "<group>"; };
+		2C7AD4EA18860FF1003C4569 /* NextViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NextViewController.m; sourceTree = "<group>"; };
+		2C7AD4EB18860FF1003C4569 /* NextViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NextViewController.xib; sourceTree = "<group>"; };
+		2C7AD4EE18873F84003C4569 /* universalApp.sqlite3 */ = {isa = PBXFileReference; lastKnownFileType = file; path = universalApp.sqlite3; sourceTree = "<group>"; };
+		2C7AD4F0188742AF003C4569 /* PCCDatabase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PCCDatabase.h; sourceTree = "<group>"; };
+		2C7AD4F1188742AF003C4569 /* PCCDatabase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PCCDatabase.m; sourceTree = "<group>"; };
+		2C7AD4F318874312003C4569 /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
+		2CAB65EE188D8615009A33CC /* directory.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = directory.html; sourceTree = "<group>"; };
+		2CAB65F0188D8620009A33CC /* directory.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = directory.js; sourceTree = "<group>"; };
+		2CAB65F3188D889F009A33CC /* Directory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Directory.h; sourceTree = "<group>"; };
+		2CAB65F4188D889F009A33CC /* Directory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Directory.m; sourceTree = "<group>"; };
+		2CAB65F6188DD2CB009A33CC /* directory.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = directory.json; sourceTree = "<group>"; };
+		2CAB65F818904910009A33CC /* jquery.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = jquery.js; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +97,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2C7AD4F418874312003C4569 /* libsqlite3.dylib in Frameworks */,
 				2C0E6CC2187F0D5000A0FA19 /* CoreGraphics.framework in Frameworks */,
 				2C0E6CC4187F0D5000A0FA19 /* UIKit.framework in Frameworks */,
 				2C0E6CC0187F0D5000A0FA19 /* Foundation.framework in Frameworks */,
@@ -96,6 +139,7 @@
 		2C0E6CBE187F0D5000A0FA19 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				2C7AD4F318874312003C4569 /* libsqlite3.dylib */,
 				2C0E6CBF187F0D5000A0FA19 /* Foundation.framework */,
 				2C0E6CC1187F0D5000A0FA19 /* CoreGraphics.framework */,
 				2C0E6CC3187F0D5000A0FA19 /* UIKit.framework */,
@@ -109,7 +153,20 @@
 			children = (
 				2C0E6CCE187F0D5000A0FA19 /* AppDelegate.h */,
 				2C0E6CCF187F0D5000A0FA19 /* AppDelegate.m */,
+				2C0E6CF7187F0E0D00A0FA19 /* RootViewController.h */,
+				2C0E6CF8187F0E0D00A0FA19 /* RootViewController.m */,
+				2C0E6CF4187F0DF000A0FA19 /* MyWebView.h */,
+				2C0E6CF5187F0DF000A0FA19 /* MyWebView.m */,
+				2C7AD4F0188742AF003C4569 /* PCCDatabase.h */,
+				2C7AD4F1188742AF003C4569 /* PCCDatabase.m */,
+				2CAB65F3188D889F009A33CC /* Directory.h */,
+				2CAB65F4188D889F009A33CC /* Directory.m */,
+				2C74CDD718932803001E9F16 /* HelpWebView.h */,
+				2C74CDD818932803001E9F16 /* HelpWebView.m */,
 				2C0E6CD1187F0D5000A0FA19 /* Images.xcassets */,
+				2C7AD4E918860FF1003C4569 /* NextViewController.h */,
+				2C7AD4EA18860FF1003C4569 /* NextViewController.m */,
+				2C7AD4EB18860FF1003C4569 /* NextViewController.xib */,
 				2C0E6CC6187F0D5000A0FA19 /* Supporting Files */,
 			);
 			path = WebSQLConnect;
@@ -118,6 +175,16 @@
 		2C0E6CC6187F0D5000A0FA19 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				2C7AD4EE18873F84003C4569 /* universalApp.sqlite3 */,
+				2CAB65EE188D8615009A33CC /* directory.html */,
+				2CAB65F6188DD2CB009A33CC /* directory.json */,
+				2C0E6CEF187F0DDE00A0FA19 /* webview-document.html */,
+				2CAB65F0188D8620009A33CC /* directory.js */,
+				2C0E6CEE187F0DDE00A0FA19 /* NativeBridge.js */,
+				2CAB65F818904910009A33CC /* jquery.js */,
+				2C7AD4E41885B0D4003C4569 /* main.js */,
+				2C0E6CF0187F0DDE00A0FA19 /* webview-script.js */,
+				2C74CDD5189327D3001E9F16 /* help.html */,
 				2C0E6CC7187F0D5000A0FA19 /* WebSQLConnect-Info.plist */,
 				2C0E6CC8187F0D5000A0FA19 /* InfoPlist.strings */,
 				2C0E6CCB187F0D5000A0FA19 /* main.m */,
@@ -219,8 +286,19 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2CAB65FA18904923009A33CC /* jquery.js in Resources */,
+				2CAB65F2188D8632009A33CC /* directory.js in Resources */,
+				2C7AD4E61885BB73003C4569 /* NativeBridge.js in Resources */,
+				2C7AD4EF18873F84003C4569 /* universalApp.sqlite3 in Resources */,
+				2C7AD4E71885BB74003C4569 /* main.js in Resources */,
+				2C74CDD6189327D3001E9F16 /* help.html in Resources */,
+				2C7AD4E81885BB74003C4569 /* webview-script.js in Resources */,
 				2C0E6CCA187F0D5000A0FA19 /* InfoPlist.strings in Resources */,
+				2C7AD4ED18860FF1003C4569 /* NextViewController.xib in Resources */,
 				2C0E6CD2187F0D5000A0FA19 /* Images.xcassets in Resources */,
+				2CAB65EF188D8615009A33CC /* directory.html in Resources */,
+				2C0E6CF2187F0DDE00A0FA19 /* webview-document.html in Resources */,
+				2CAB65F7188DD2CB009A33CC /* directory.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -239,8 +317,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2C7AD4EC18860FF1003C4569 /* NextViewController.m in Sources */,
+				2C7AD4F2188742AF003C4569 /* PCCDatabase.m in Sources */,
+				2C74CDD918932803001E9F16 /* HelpWebView.m in Sources */,
 				2C0E6CD0187F0D5000A0FA19 /* AppDelegate.m in Sources */,
+				2CAB65F5188D889F009A33CC /* Directory.m in Sources */,
 				2C0E6CCC187F0D5000A0FA19 /* main.m in Sources */,
+				2C0E6CF9187F0E0D00A0FA19 /* RootViewController.m in Sources */,
+				2C0E6CF6187F0DF000A0FA19 /* MyWebView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -441,6 +525,7 @@
 				2C0E6CEA187F0D5000A0FA19 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2C0E6CEB187F0D5000A0FA19 /* Build configuration list for PBXNativeTarget "WebSQLConnectTests" */ = {
 			isa = XCConfigurationList;
@@ -449,6 +534,7 @@
 				2C0E6CED187F0D5000A0FA19 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

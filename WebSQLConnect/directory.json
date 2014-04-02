@@ -1,0 +1,5 @@
+[
+{"first_name" : "kevin","last_name" : "thornton", "company" : "pcc", "division" : "IT", "title" : "mobile programmer", "email" : "kthornton@precastcorp.com", "work_phone" : "503-964-4790", "cell_phone" : "503-545-2481"},
+ {"first_name" : "dave","last_name" : "bru", "company" : "pcc", "division" : "IT", "title" : "web programmer", "email" : "dbru@precastcorp.com", "work_phone" : "503-964-4788", "cell_phone" : "503-123-1233"},
+{"first_name" : "aaron","last_name" : "beverly", "company" : "pcc", "division" : "IT", "title" : "web programmer", "email" : "abeverly@precastcorp.com", "work_phone" : "503-964-4587", "cell_phone" : "503-777-8888"}
+]
